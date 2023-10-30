@@ -22,7 +22,7 @@
     eg. height_over5 <- height[height>5]
 - might need to add "na.rm=TRUE/FALSE", depending on the situation
 
-# Quarto:  brand new to literate programming
+Quarto:  brand new to literate programming
    Chapter 29: Quarto, sections 29.1-29.5 (Introduction through Code chunks), in R 4 Data Science by Hadley Wickham.
     - a Quarto file – a plain text file that has the extension .qmd
     -  [...] It contains three important types of content: An (optional) YAML header surrounded by ---s, Chunks of R code surrounded by ```, Text mixed with simple text formatting like # heading and _italics_.
@@ -31,10 +31,10 @@
   # 10/16/2023
   # Lesson 3 - Park downhill!
   
-  # EVERY NEW PROJECT need to:
-    1) use_git()
-    2) git_default_branch_rename()
-    3) use_github()
+  # EVERY NEW PROJECT need to: [remember to add "usethis::" at the beginnging" .... if not, you can't push :( ]
+    1) usethis::use_git()
+    2) usethis::git_default_branch_rename()
+    3) usethis::use_github()
     
   Functions in console view
   - Create folders:  dir.create("foldername")
@@ -57,6 +57,20 @@
   - summarize (newcolname=whateveryouwantocalculatesuchasmeanmaxmin(oldcolname, .groups = "drop"")...amount=n()
   - arrange ()
   
+  
+  #10/23/2023
+  #Lesson 4 - Functions
+  
+  - Functions are a "miniuniverse""
+  - Key parts of functions: 
+      name<- 
+      key word= function 
+      body{}
+      parameter (s?)
+  - First define the function! (will show in environment)
+  - Parameter has no value beyond what you assignt to it. But make sure it is consistent throughout the function
+  - key shortcut to move rows arround: place cursor on row, option+arrows wherever you wanna drop it.
+  - Dont forget about adding return (result, or whatever you want to be published), at the end of the function
   
   
 
